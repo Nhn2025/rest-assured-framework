@@ -23,6 +23,50 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20231013</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
+        <dependency>
+            <groupId>com.github.scribejava</groupId>
+            <artifactId>scribejava-apis</artifactId>
+            <version>8.3.1</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.java-json-tools/json-schema-validator -->
+        <dependency>
+            <groupId>com.github.java-json-tools</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>2.2.14</version>
+        </dependency>
+
     </dependencies>
 
 </project>
