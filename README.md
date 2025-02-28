@@ -147,8 +147,4 @@ jobs:
 
 ---
 
-## 📌 Contributors 👨‍💻
-- **[Your Name]** - *Lead Developer*
-- **[Other Contributors]** - *QA Automation Engineers*
-
 📌 **Feel free to contribute to this project!** 🎯
