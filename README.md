@@ -1,1 +1,1 @@
-# RestAssured API Automation Framework 🚀
+# RestAssured API Automation Framework
