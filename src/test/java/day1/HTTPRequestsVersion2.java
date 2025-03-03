@@ -4,9 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import io.restassured.response.Response;
-
 import java.util.Map;
-
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
