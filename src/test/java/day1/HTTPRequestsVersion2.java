@@ -1,5 +1,6 @@
 package day1;
 
+import io.restassured.http.ContentType;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -26,7 +27,7 @@ public class HTTPRequestsVersion2 {
         );
 
         Response response = given()
-                .contentType("application/json")
+                .contentType(ContentType.JSON)
                 .body(data)
                 .when()
                 .post()

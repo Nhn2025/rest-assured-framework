@@ -1,4 +1,5 @@
 package day1;
+import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -29,7 +30,8 @@ public class HTTPRequests {
         data.put("job", "tester");
 
         id=given()
-                .contentType("application/json")
+                //.contentType("application/json")
+                .contentType(ContentType.JSON)
                 .body(data)
 
                 .when()
@@ -61,7 +63,7 @@ public class HTTPRequests {
         data.put("job", "auto");
 
         given()
-                .contentType("application/json")
+                .contentType(ContentType.JSON)
                 .body(data)
 
         .when()
